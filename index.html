@@ -131,7 +131,7 @@
     <section id="contact">
         <h2 class="section-title">Contato</h2>
         <div class="contact-content">
-            <form class="contact-form">
+            <form class="contact-form" action="https://formsubmit.co/SEUEMAIL@gmail.com" method="POST">
                 <div class="form-group">
                     <label for="name">Nome</label>
                     <input type="text" id="name" name="name" required>
@@ -144,6 +144,12 @@
                     <label for="message">Mensagem</label>
                     <textarea id="message" name="message" rows="5" required></textarea>
                 </div>
+
+                <!-- Proteção contra SPAM -->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="box"> <!-- deixa o e-mail bonitinho -->
+                <input type="hidden" name="_subject" value="Novo contato do site!">
+
                 <button type="submit" class="btn-primary">Enviar Mensagem</button>
             </form>
             
