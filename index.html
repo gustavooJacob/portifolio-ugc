@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lauanda - Criadora de Conteúdo UGC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Elementos decorativos -->
+    <div class="decorative-element flower-1">🌻</div>
+    <div class="decorative-element flower-2">🌻</div>
+    <div class="decorative-element butterfly-1">🦋</div>
+    <div class="decorative-element butterfly-2">🦋</div>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Lauanda UGC</div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#content">Conteúdo</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Lauanda de Paula</h1>
+        <h2>(Lau)</h2>
+        <h3>Criadora de Conteúdo UGC</h2>
+        <p>Vídeos reais, inclusivos e cheios de personalidade.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">Sobre Mim</h2>
+        <div class="about-content">
+            <p>Sou mãe, farmacêutica e surda oralizada. Como criadora de conteúdo UGC, compartilho minha rotina com autenticidade, mostrando produtos de forma leve e acessível.</p>
+        </div>
+    </section>
+
+    <!-- Content Types Section -->
+    <section id="content">
+        <h2 class="section-title">Tipos de Conteúdo</h2>
+        <div class="content-grid">
+            <div class="content-card">
+                <i class="fas fa-cut"></i>
+                <h3>Cuidados com o cabelo</h3>
+                <p>Dicas e produtos para cabelos ondulados e cacheados</p>
+            </div>
+            <div class="content-card">
+                <i class="fas fa-heart"></i>
+                <h3>Rotina e maternidade</h3>
+                <p>Compartilhando a vida real de mãe</p>
+            </div>
+            <div class="content-card">
+                <i class="fas fa-hands-helping"></i>
+                <h3>Inclusão (surdez, acessibilidade)</h3>
+                <p>Promovendo acessibilidade e inclusão</p>
+            </div>
+        </div>
+
+        <h3 style="text-align: center; margin: 4rem 0 2rem; color: var(--pink); font-size: 2rem;">Outros Formatos</h3>
+        <div class="content-grid">
+            <div class="content-card">
+                <i class="fas fa-box-open"></i>
+                <h3>Recebidos e unboxing</h3>
+                <p>Primeiras impressões autênticas</p>
+            </div>
+            <div class="content-card">
+                <i class="fas fa-utensils"></i>
+                <h3>Comidas diferentes</h3>
+                <p>Explorando novos sabores</p>
+            </div>
+            <div class="content-card">
+                <i class="fas fa-camera"></i>
+                <h3>Bastidores do trabalho</h3>
+                <p>Por trás das câmeras</p>
+            </div>
+            <div class="content-card">
+                <i class="fas fa-flask"></i>
+                <h3>Testes rápidos de produtos</h3>
+                <p>Reviews honestos e diretos</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2 class="section-title">Galeria</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="/placeholder.svg?height=250&width=300" alt="Conteúdo UGC 1">
+                <div class="caption">Rotina de cuidados capilares</div>
+            </div>
+            <div class="gallery-item">
+                <img src="/placeholder.svg?height=250&width=300" alt="Conteúdo UGC 2">
+                <div class="caption">Unboxing de produtos naturais</div>
+            </div>
+            <div class="gallery-item">
+                <img src="/placeholder.svg?height=250&width=300" alt="Conteúdo UGC 3">
+                <div class="caption">Dicas de maternidade</div>
+            </div>
+            <div class="gallery-item">
+                <img src="/placeholder.svg?height=250&width=300" alt="Conteúdo UGC 4">
+                <div class="caption">Bastidores do trabalho</div>
+            </div>
+            <div class="gallery-item">
+                <img src="/placeholder.svg?height=250&width=300" alt="Conteúdo UGC 5">
+                <div class="caption">Teste de produtos de beleza</div>
+            </div>
+            <div class="gallery-item">
+                <img src="/placeholder.svg?height=250&width=300" alt="Conteúdo UGC 6">
+                <div class="caption">Conteúdo inclusivo</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Contato</h2>
+        <div class="contact-content">
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Enviar Mensagem</button>
+            </form>
+            
+            <div style="text-align: center; margin-top: 2rem;">
+                <p style="margin-bottom: 1rem;"><strong>E-mail profissional:</strong> lauanda.ugc@gmail.com</p>
+                <a href="https://wa.me/5511999999999" class="whatsapp-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    Falar no WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Criado com amor por Lauanda 🦋🌻</p>
+        <p style="margin-top: 0.5rem; opacity: 0.8;">© 2024 - Todos os direitos reservados</p>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <div class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
