@@ -141,10 +141,10 @@ nav {
 
 /* Hero Section */
 .hero {
-    width: 100vw; /* ocupa 100% da largura da viewport */
-    max-width: none; /* remove limite de largura herdado */
-    margin: 0; /* remove centralização */
-    padding: 180px 2rem 80px;
+    width: 100vw;
+    max-width: none;
+    margin: 0;
+    padding: 130px 2rem 50px;
     background: linear-gradient(135deg, var(--pink) 0%, var(--azul-claro) 100%);
     color: var(--branco);
     text-align: center;
@@ -175,10 +175,8 @@ nav {
 
 .hero h1 {
     font-size: 3rem;
-    margin-bottom: 1rem;
     font-weight: 700;
     font-family: "Ms Madi", cursive;
-    font-style: normal;
     margin: 0 0 -15px 0;
 }
 
@@ -187,6 +185,24 @@ nav {
     max-width: 600px;
     margin: 0 auto;
     font-weight: 300;
+}
+
+.social-hero-icons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.social-hero-icons a {
+    font-size: 2rem;
+    color: var(--branco);
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-hero-icons a:hover {
+    transform: scale(1.2);
+    color: var(--rosa-suave);
 }
 
 /* Sections */
